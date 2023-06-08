@@ -1,12 +1,10 @@
-import { Slider } from "../components/GUI/Slider/Slider";
+import { AppRoutes } from "../components";
 import "../styles/main.css";
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
     <>
-      <Slider />
+      <AppRoutes />
     </>
   );
 };
-
-export default App;

@@ -1,10 +1,13 @@
 import ReactDOM from "react-dom/client";
-import App from "./app/App.tsx";
 import { Provider } from "react-redux";
+import { BrowserRouter as Router } from 'react-router-dom'
 import { store } from "./store/index.ts";
+import { App } from "./app/App.tsx";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <Provider store={store}>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </Provider>
 );
