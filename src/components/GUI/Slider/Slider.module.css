@@ -1,0 +1,16 @@
+.arraw__slider__right {
+  position: relative;
+  top: -350px;
+  cursor: pointer;
+  padding: 25px;
+  user-select: none;
+}
+
+.arraw__slider__left {
+  position: relative;
+  top: -350px;
+  cursor: pointer;
+  padding: 25px;
+  text-align: end;
+  user-select: none;
+}
