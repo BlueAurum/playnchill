@@ -22,7 +22,7 @@ const navList: NavLink[] = [
         title: 'Гарантии',
     },
     {
-        path: 'How?to?buy',
+        path: 'how?to?buy',
         title: 'Как купить',
     },
     {
