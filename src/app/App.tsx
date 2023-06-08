@@ -1,12 +1,10 @@
-import { Slider } from "../components/GUI/Slider/Slider";
+import { Slider } from "../components";
 import "../styles/main.css";
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
     <>
       <Slider />
     </>
   );
 };
-
-export default App;
